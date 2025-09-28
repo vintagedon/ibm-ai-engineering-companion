@@ -1,0 +1,41 @@
+﻿# E3: Steam Genre Clustering Requirements
+
+# Core Data Science Stack
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+
+# Database Connectivity
+psycopg2-binary>=2.9.0
+sqlalchemy>=2.0.0
+
+# Natural Language Processing
+nltk>=3.8.1
+scikit-learn>=1.3.0
+
+# Text Processing Utilities
+regex>=2023.6.3
+
+# Dimensionality Reduction and Clustering
+scikit-learn>=1.3.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+wordcloud>=1.9.2
+
+# Model Persistence
+joblib>=1.3.0
+
+# Environment and Configuration
+python-dotenv>=1.0.0
+
+# Jupyter Development
+jupyter>=1.0.0
+ipykernel>=6.25.0
+
+# Progress Tracking
+tqdm>=4.65.0
+
+# Memory Management for Text Processing
+memory-profiler>=0.60.0

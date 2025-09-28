@@ -1,0 +1,159 @@
+﻿# IBM AI Engineering Companion - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-meta/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Machine Learning Models & Artifacts
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+models/
+checkpoints/
+logs/
+runs/
+tensorboard/
+
+# Large Dataset Files
+*.csv
+*.json
+*.parquet
+*.feather
+*.hdf
+*.h5
+data/raw/
+data/processed/
+data/external/
+
+# GPU & CUDA
+*.ptx
+*.cubin
+*.fatbin
+
+# Scientific Computing
+*.npy
+*.npz
+*.mat
+
+# Documentation Build
+docs/_build/
+docs/site/
+*.pdf
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.out
+
+# OS Generated
+.DS_Store?
+ehthumbs.db
+Icon?
+
+# Container & Deployment
+Dockerfile.tmp
+docker-compose.override.yml
+.dockerignore.tmp
+
+# Kubernetes Secrets
+k8s/secrets/
+*.secret.yaml
+
+# Infrastructure Monitoring Screenshots
+artifacts/*/screenshots/
+artifacts/*/monitoring/
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Performance Logs
+*.prof
+*.profile
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+
+# Testing
+.pytest_cache/
+.cache/
+nosetests.xml
+coverage.xml
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Local Configuration
+config.local.json
+settings.local.py
+
+# Pending Files (remove as completed)
+*-pending.*
